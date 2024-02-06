@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    display: inline-block;
+}
+body {
+    background-color: #F6F8F9;
+}
+
+header {
+    background-color: white;
+
+}
+
+/*corpo  del documento*/
+main {
+    width: 700px;
+    margin: auto;
+    background-color: white;
+}
+
+.lanav {
+    border: solid 2px #F6F8F9;
+}
+
+.brd-rds {
+    border: solid 1px green;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.btn-cyano {
+    background-color: #09A9ED;
+}
+ul{
+    list-style:none;
+}
