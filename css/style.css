@@ -45,12 +45,12 @@ main {
 
 .brd-rds {
     display: inline-block;
-    border: solid 1px green;
+    border: solid 3px green;
     width: 24px;
     height: 24px;
     border-radius: 50%;
     text-align: center;
-    padding-top: 4px;
+    padding-top: 1px;
     color: green;
    
 }
@@ -104,12 +104,12 @@ li {
 }
 .redx{
     display: inline-block;
-    border: solid 1px red;
+    border: solid 3px red;
     width: 24px;
     height: 24px;
     border-radius: 50%;
     text-align: center;
-    padding-top: 4px;
+    padding-top: 1px;
     color: red;
 }
     
