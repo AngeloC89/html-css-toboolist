@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 h1 {
     display: inline-block;
 }
+
 body {
     background-color: #F6F8F9;
     font-family: "Roboto", sans-serif;
@@ -26,21 +28,78 @@ main {
 
 .lanav {
     border: solid 2px #F6F8F9;
+    margin-left: 5px;
+    height: 60px;
+
+}
+
+.list {
+    padding: 20px;
 }
 
 .brd-rds {
+    display: inline-block;
     border: solid 1px green;
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+    color: green;
 }
-
+/*color button*/
 .btn-cyano {
     background-color: #09A9ED;
 }
-ul{
-    list-style:none;
+.btn-violet{
+    background-color: #AB5DE6;
 }
-.rds-btn{
-    border-radius:10px;
+.btn-orange{
+    background-color: orange;
+}
+.rds-btn {
+    border-radius: 10px;
+    border: none;
+    width: 90px;
+    height: 25px;
+}
+.btn-nav{
+    border:solid 2px rgb(175, 169, 169) ;
+    color:rgb(175, 169, 169);
+    background-color: white;
+    border-radius: 6px;
+}
+.btnav{
+    margin-top: 20px;
+    border-radius: 6px;
+}
+button {
+    color: white;
+}s
+/*list*/
+ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+
+    
+
+
+
+.redx{
+    display: inline-block;
+    border: solid 1px red;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+    color: red;
+    
 }
