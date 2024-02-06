@@ -8,10 +8,12 @@ h1 {
 }
 body {
     background-color: #F6F8F9;
+    font-family: "Roboto", sans-serif;
 }
 
 header {
     background-color: white;
+    margin-bottom: 50px;
 
 }
 
@@ -38,4 +40,7 @@ main {
 }
 ul{
     list-style:none;
+}
+.rds-btn{
+    border-radius:10px;
 }
