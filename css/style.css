@@ -94,8 +94,11 @@ button {
     color: white;
 }
 /*list*/
-details {
+ul{
     list-style: none;
+}
+details {
+    
     margin-bottom: 30px;
 }
 
